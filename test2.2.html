@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <title>Box model</title>
+	  <style>
+	   .bigbox {
+			width: 96px; 
+			height: 96px; 
+			background-color: #045FB4; 
+			margin: 2px; 
+			float: left; 
+			display: flex; 
+			align-items: flex-end; 
+			justify-content: flex-end;
+	   }
+	   .smallbox {
+	       width: 62px;
+		   height: 62px; 
+		   background-color: #045FB4; 
+		   margin: 2px; 
+		   float: left; 
+		   display: flex; 
+		   align-items: flex-end; 
+		   justify-content: flex-end;
+	   }
+	  </style>
+   </head>
+
+
+ <body>
+
+	<div style="width: 408px; height: 204px; border:black solid; padding: 2px"> 
+
+
+		<div style="width: 200px; height: 200px; background-color: white; margin: 2px; float: left">
+		  <div class="bigbox">1</div>
+		  <div class="bigbox">2</div>
+		  <div class="bigbox">3</div>
+		  <div class="bigbox">4</div>
+		</div> 
+
+		<div style="width: 200px; height: 200px; background-color: white; margin: 2px; float: right">
+		  <div class="smallbox">5</div>
+		  <div class="smallbox">6</div>
+		  <div class="smallbox">7</div>
+		  <div class="smallbox">8</div>
+		  <div class="smallbox"></div>
+		  <div class="smallbox"></div>
+		  <div class="smallbox"></div>
+		  <div class="smallbox"></div>
+		  <div class="smallbox"></div>
+		</div> 
+
+	</div> 
+  </body>
+</html>
